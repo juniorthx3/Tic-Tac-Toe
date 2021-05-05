@@ -19,4 +19,3 @@ const playGame= ()=>{
 }
 
 playGame();
-playGame();
