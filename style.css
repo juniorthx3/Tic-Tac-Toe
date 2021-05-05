@@ -100,13 +100,16 @@ button:hover{
     border-color:white;
     box-shadow: inset 2px 2px 40px red;
     transition:0.2s ease-out;
-    transform:translateX(5px);
+    transform:translateX(6px);
+}
+
+button:active{
+    transform:translateY(20px)
 }
 
 @media screen and (max-width: 600px){
     td{
         height: 100px;
         width: 100px;
-        
     }
 }
